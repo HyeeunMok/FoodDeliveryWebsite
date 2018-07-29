@@ -60,17 +60,7 @@ $(document).ready(function() {
     }, {
     offset: '50%;'
     });
-    //      $('.js--wp-5').waypoint(function(direction){
-    //           $('.js--wp-5').addClass('animated pulse');
-    //   }, {
-    //       offset: '50%;'
-    //   });
-    //      $('.js--wp-6').waypoint(function(direction){
-    //           $('.js--wp-6').addClass('animated pulse');
-    //   }, {
-    //       offset: '50%;'
-    //   });
-    
+ 
     /* NAV ANIMATION  */
 
     $('.js--nav-icon').click(function() {
@@ -89,25 +79,23 @@ $(document).ready(function() {
             
     });
     
-    //      /* GMAPS  */
-    //     var map = new GMaps({
-    //       div: '.map',
-    //       lat: 37.7577,
-    //       lng: -122.3376,
-    //       zoom: 12
-    //      });
-    
-    //   map.addMarker({
-    //   lat: 37.7577,
-    //   lng: -122.4376,
-    //   title: 'San Francisco',
-    //   infoWindow: {
-    //   content: '<p>Our San Francisco HQ</p>'
-    // }
-    
-    // });
-    
-    
+    /* Maps */
+    var map = new GMaps({
+        div: '.map',
+        lat: 38.7436266,
+        lng: -9.05,
+        zoom: 12
+      });
+
+    map.addMarker({
+        lat: 38.7436266,
+        lng: -9.1602037,
+        title: 'Lisbon',
+        infoWindow: {
+            content: '<p>Our Lisbon HQ</p>'
+            }
     });
+    
+});
     
      
