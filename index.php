@@ -431,7 +431,7 @@
                 </div>
                 <div class="row">
                     <p>
-                        Copyright &copy; 2018 by Fast Sloth (Mok). All rights reserved.
+                        Copyright &copy; 2015 by Jonas Schmedtmann. All rights reserved.
                     </p>
                 </div>
 
